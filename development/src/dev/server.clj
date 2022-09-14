@@ -7,6 +7,5 @@
 (defn stop! []
   (main/stop!))
 
-(comment
-  (start! 6003)
-  (stop!))
+(defn run [opts]
+  (start! 6003))
